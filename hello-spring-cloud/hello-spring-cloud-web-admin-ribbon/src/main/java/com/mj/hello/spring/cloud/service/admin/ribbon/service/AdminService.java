@@ -5,6 +5,12 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 import org.springframework.web.client.RestTemplate;
 
+/**
+ * ribbon + RestTimplate 组合，调用服务提供者的接口
+ * 写法如下：在ribbon中的实现类中，通过restTemplate.getForObject("http://服务名/url"，类型),很麻烦
+ * @HystrixCommand 是Hystrix 在ribbon 中的用法，不需要像feign写个类，只需要在这个实现类中写个方法即可；
+ * ribbon 没有自带Hystrix，所以需要增加依赖
+ */
 @Service
 public class AdminService {
 

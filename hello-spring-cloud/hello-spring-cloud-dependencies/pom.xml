@@ -144,6 +144,9 @@
                 <version>${swagger2.version}</version>
             </dependency>
             <!-- Swagger2 End -->
+
+
+
         </dependencies>
     </dependencyManagement>
 
@@ -276,7 +279,9 @@
         </resources>
     </build>
 
+
     <repositories>
+
         <repository>
             <id>aliyun-repos</id>
             <name>Aliyun Repository</name>
@@ -331,6 +336,7 @@
     </repositories>
 
     <pluginRepositories>
+
         <pluginRepository>
             <id>aliyun-repos</id>
             <name>Aliyun Repository</name>

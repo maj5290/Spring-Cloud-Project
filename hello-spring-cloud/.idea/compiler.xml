@@ -22,10 +22,10 @@
   </component>
   <component name="JavacSettings">
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">
-      <module name="hello-spring-cloud-eureka" options="-parameters" />
-      <module name="hello-spring-cloud-service-admin" options="-parameters" />
-      <module name="hello-spring-cloud-web-admin-feign" options="-parameters" />
-      <module name="hello-spring-cloud-web-admin-ribbon" options="-parameters" />
+      <module name="hello-spring-cloud-eureka" options="" />
+      <module name="hello-spring-cloud-service-admin" options="" />
+      <module name="hello-spring-cloud-web-admin-feign" options="" />
+      <module name="hello-spring-cloud-web-admin-ribbon" options="" />
     </option>
   </component>
 </project>
